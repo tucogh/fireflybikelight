@@ -4,6 +4,50 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="hal" displayName="hal" projectFiles="true">
+        <logicalFolder name="common" displayName="common" projectFiles="true">
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/cc2500.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_int.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_rf.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_rf.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_spi.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_spi_config.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/common/hal_spi_config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="hal_exp430" displayName="hal_exp430" projectFiles="true">
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_board.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_board.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_digio.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_lcd.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_led.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_mcu.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_timer.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_exp430/hal_uart.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="hal_template"
+                       displayName="hal_template"
+                       projectFiles="true">
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_template/hal_board.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_template/hal_board.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_template/hal_digio.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_template/hal_mcu.c</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/hal_template/hal_timer.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_defs.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_digio.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_int.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_joystick.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_lcd.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_led.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_mcu.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_msp430.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_spi.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_timer.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_types.h</itemPath>
+          <itemPath>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal/include/hal_uart.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -19,6 +63,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Documents/Arduino/CC2500 FireFly/swra141/source_rev_113/hal</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
